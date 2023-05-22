@@ -9,19 +9,65 @@
     <link rel="stylesheet" href="home.css">
 </head>
 <body>
-    <div class="navbar">
-        <div class="bag">
-            <h1>Fotocopy Rajawali</h1>
-        </div>
-        <div class="bag">
+    <header>
+        <div class="nav-bar-top">
+            <h2>Rajawali Fotocopy</h2>
             <ul>
-                <li>History</li>
-                <li>Logistic</li>
-                <li>Report</li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Logistic</a></li>
+                <li><a href="#">Report</a></li>
             </ul>
-        </div>
-        <div class="bag">
             <i class="fas fa-user"></i>
+        </div>
+    </header>
+    <div class="container">
+        <div class="bag1">
+            <div class="filter">
+                <h2>Filter</h2>
+            </div>
+            <div class="category">
+                <h2>Category</h2>
+                <div class="section">
+                    <input type="checkbox" name="" id="printing">
+                    <p>Printing Supplies</p>
+                </div>
+                <div class="section">
+                    <input type="checkbox" name="" id="office">
+                    <p>Office Supplies</p>
+                </div>
+            </div>
+            <div class="stock">
+                <h2>Stock</h2>
+                <div class="search-bar">
+                    <input type="text" class="search-input" placeholder="More Than..." id="search1">
+                    <!-- <i class="fas fa-search search-icon"></i>
+                    <i class="fas fa-times cancel-icon"></i> -->
+                </div>
+                <div class="search-bar">
+                    <input type="text" class="search-input" placeholder="More Than..." id="search2">
+                    <!-- <i class="fas fa-search search-icon"></i>
+                    <i class="fas fa-times cancel-icon"></i> -->
+                </div>
+            </div>
+            <div class="action">
+                <div class="row">
+                    <input type="button" value="Inbound" id="inbound">
+                    <input type="button" value="Outbound" id="outbound">
+                </div>
+                <div class="row">
+                    <input type="button" value="Create Item" id="create_item">
+                </div>
+            </div>
+        </div>
+        <div class="bag2">
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Search Item..." id="search3">
+            </div>
+            <div class="cards">
+                <div class="card">
+                    
+                </div>
+            </div>
         </div>
     </div>
 </body>
